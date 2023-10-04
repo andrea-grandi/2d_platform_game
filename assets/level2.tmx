@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="57">
+ <tileset firstgid="1" source="tileset2.tsx"/>
+ <tileset firstgid="925" source="tileset.tsx"/>
+ <layer id="1" name="background" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7DC/BuquqrYl0B6SVVVVVVVVVVVVVVVVR8PMK//6Q==
+  </data>
+ </layer>
+ <layer id="2" name="ground" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztmA0KgzAMhQNew1N7mcFON2QMS9bYdv3L694HAUWtry9N/BER2eViD0LUsdi+Zo8EIaQfun6tY7H9u7Fyzh/NY3sHIh/tXvWH+kZq9O5Lb84ae27Xtn5uWs9ia6y7frASs9YracvoPKbuV6onVW8l9WuNm4O3WtA+etK2EvS1Dv29G/tu7V27JE1tDxlZJ+x5vrFyw39Wabim1wX9fa32/3OLuedej+51b3J88ehdaz0e54jM6l6W9hT2IELICI4gCCbM4VwOmZeDf8y9NWdUL5B0l3qPMLdf6rfVvDz601sT8lqJgaSb9ft9Tat7ewG5fnUuGXihma2HMS5eKN78kg==
+  </data>
+ </layer>
+ <objectgroup id="3" name="oggetti">
+  <object id="1" x="0.666667" y="191.333" width="1807.33" height="15.3333"/>
+  <object id="3" x="1872.67" y="192.667" width="1967.33" height="14.6667"/>
+ </objectgroup>
+ <objectgroup id="4" name="brick">
+  <object id="14" x="224.667" y="80.6667" width="48" height="14.6667"/>
+  <object id="15" x="576.667" y="96" width="63.3333" height="14"/>
+  <object id="16" x="720" y="112.667" width="31.3333" height="14"/>
+  <object id="17" x="849.333" y="94.6667" width="45.3333" height="17.3333"/>
+  <object id="18" x="1007.33" y="94.6667" width="81.3333" height="16"/>
+  <object id="19" x="1136.67" y="48.6667" width="94.6667" height="14.6667"/>
+  <object id="20" x="1488" y="79.3333" width="31.3333" height="16"/>
+  <object id="21" x="1616" y="112" width="64" height="14.6667"/>
+  <object id="22" x="1712" y="64.6667" width="47.3333" height="14"/>
+  <object id="23" x="1712" y="15.3333" width="47.3333" height="16.6667"/>
+  <object id="24" x="2304" y="96" width="47.3333" height="14.6667"/>
+  <object id="25" x="2352.67" y="14" width="63.3333" height="18.6667"/>
+  <object id="26" x="2400" y="64.6667" width="64.6667" height="14.6667"/>
+  <object id="27" x="3392" y="80" width="80.6667" height="14.6667"/>
+  <object id="28" x="3536" y="32" width="64" height="14.6667"/>
+  <object id="47" x="464.333" y="143.667" width="46.6667" height="47"/>
+  <object id="48" x="1152.33" y="160" width="47.3333" height="30.6667"/>
+  <object id="49" x="1248.33" y="160" width="47.6667" height="31"/>
+  <object id="50" x="1344.33" y="160" width="47.3333" height="31"/>
+  <object id="51" x="2000.33" y="144" width="63.3333" height="47.3333"/>
+  <object id="52" x="2208.33" y="160" width="47.3333" height="32.3333"/>
+  <object id="53" x="2496.33" y="128.333" width="47.3333" height="63.3333"/>
+  <object id="54" x="3088.33" y="160" width="47.3333" height="32"/>
+  <object id="55" x="3472.33" y="144.333" width="47.3333" height="47.3333"/>
+  <object id="56" x="3568.33" y="144" width="47.3333" height="48"/>
+ </objectgroup>
+ <objectgroup id="5" name="zombie">
+  <object id="30" x="238.667" y="71.3333"/>
+  <object id="31" x="306" y="180.667"/>
+  <object id="32" x="482.667" y="135.333"/>
+  <object id="33" x="590" y="37.3333"/>
+  <object id="34" x="831.333" y="181.333"/>
+  <object id="35" x="1062.67" y="181.333"/>
+  <object id="36" x="1042.67" y="84"/>
+  <object id="37" x="1500.67" y="68.6667"/>
+  <object id="38" x="1730.67" y="52.6667"/>
+  <object id="39" x="2328.67" y="84"/>
+  <object id="40" x="2438" y="53.3333"/>
+  <object id="41" x="2418" y="180.667"/>
+  <object id="42" x="2911.33" y="84.6667"/>
+  <object id="43" x="2706" y="181.333"/>
+  <object id="44" x="3114.67" y="148.667"/>
+  <object id="45" x="3413.33" y="68"/>
+  <object id="46" x="3688" y="182"/>
+ </objectgroup>
+</map>

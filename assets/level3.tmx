@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="74">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="36" source="tileset2.tsx"/>
+ <layer id="2" name="background" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6FTUv8yp2I/SFg1VVVVVVVVVVVVVVXVxwcye22w
+  </data>
+ </layer>
+ <layer id="1" name="Livello tile 1" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJztl0sOgzAMRCO66hk4TO5/q25akaaOcfOx42SeZAkIiGg8tiGEEGK4iEmEbC0/j8T9AABd8posrVHnd9cBAGOhZiq1TtWo1fw9iWi5D3xzvOPDWTgG9nDzN73G1Sjmrz/Q1/pyEKFB/r/LzWDqudL8xexbH+T34knE7mj3Mg54FXCgfn+BFjxcT7H6ntsVT/Wr5Y1UC3gRcGh6g/K/p/odyZ0mGtrM1ivw7T4XnC93r9/VtJmtF3hnBj1X82gLjyyk2ljnUMqOOV2dGo968GoNUi286iTZq+aeLd/tFcm/rsVM5rykFT3qV1rTtdGim9We/93PSA0oeuRBykwe7ZnLFxrgFXs=
+  </data>
+ </layer>
+ <objectgroup id="7" name="ground">
+  <object id="1" x="0" y="191.818" width="527.333" height="16.3636"/>
+  <object id="8" x="880.667" y="191.667" width="303.333" height="16.3333"/>
+  <object id="10" x="1248.33" y="192" width="175" height="16"/>
+  <object id="15" x="1600.33" y="192" width="623.333" height="15.6667"/>
+  <object id="17" x="2288" y="192" width="176" height="15.6667"/>
+  <object id="18" x="2544.33" y="192.333" width="207" height="15.6667"/>
+  <object id="19" x="2976.33" y="192" width="256" height="15.6667"/>
+  <object id="24" x="3537.33" y="191.667" width="302.333" height="16.6667"/>
+ </objectgroup>
+ <objectgroup id="8" name="oggetti">
+  <object id="25" x="224.667" y="112" width="79.3333" height="15.3333"/>
+  <object id="26" x="368.667" y="64" width="79.6667" height="16"/>
+  <object id="27" x="736.333" y="32.3333" width="80.3333" height="15"/>
+  <object id="28" x="896.333" y="32" width="80" height="15.6667"/>
+  <object id="29" x="1120.67" y="128" width="63" height="15.6667"/>
+  <object id="30" x="1200" y="79.6667" width="64.6667" height="16.3333"/>
+  <object id="31" x="1696.33" y="127.667" width="63.6667" height="16.6667"/>
+  <object id="32" x="1792.67" y="96" width="63.3333" height="15.6667"/>
+  <object id="33" x="1904" y="96" width="79.6667" height="15.3333"/>
+  <object id="34" x="2032" y="48" width="63.6667" height="16.6667"/>
+  <object id="35" x="2144.33" y="31.6667" width="31.3333" height="16.3333"/>
+  <object id="36" x="2208.33" y="31.6667" width="15" height="15.6667"/>
+  <object id="37" x="2256.33" y="32" width="16" height="15.6667"/>
+  <object id="38" x="2304.33" y="63.6667" width="63.3333" height="16.6667"/>
+  <object id="39" x="2768.33" y="144" width="63.3333" height="16.3333"/>
+  <object id="40" x="2864" y="112" width="47.6667" height="16"/>
+  <object id="61" x="3232.5" y="175.5" width="64" height="32.5"/>
+  <object id="62" x="3296.5" y="112.5" width="80" height="96"/>
+  <object id="63" x="3376.5" y="48.5" width="80" height="160"/>
+  <object id="64" x="3457.5" y="160" width="78.5" height="47.5"/>
+  <object id="65" x="2000.5" y="176.5" width="95.5" height="14.5"/>
+  <object id="66" x="1424" y="144" width="64" height="64.5"/>
+  <object id="67" x="1489" y="176.5" width="111" height="31.5"/>
+  <object id="68" x="528.5" y="160" width="64" height="48.5"/>
+  <object id="69" x="592.5" y="128.5" width="47.5" height="80"/>
+  <object id="70" x="640.5" y="80" width="48" height="128.5"/>
+  <object id="71" x="689.5" y="112.5" width="62" height="95"/>
+  <object id="72" x="752.5" y="160" width="47.5" height="48.5"/>
+  <object id="73" x="801" y="176" width="79" height="32.5"/>
+ </objectgroup>
+ <objectgroup id="6" name="zombie">
+  <object id="41" x="236.333" y="102"/>
+  <object id="42" x="249" y="181.667"/>
+  <object id="43" x="484" y="182"/>
+  <object id="44" x="664" y="69"/>
+  <object id="45" x="849.667" y="165"/>
+  <object id="46" x="989" y="181.667"/>
+  <object id="47" x="1553" y="164.667"/>
+  <object id="48" x="1730" y="118"/>
+  <object id="49" x="1679.33" y="182"/>
+  <object id="50" x="1848" y="181"/>
+  <object id="51" x="1936" y="86"/>
+  <object id="52" x="2048.33" y="165.333"/>
+  <object id="53" x="2381" y="181.333"/>
+  <object id="54" x="2650" y="181.667"/>
+  <object id="55" x="3129.67" y="181.333"/>
+  <object id="56" x="3182" y="181.333"/>
+  <object id="57" x="3410.67" y="37"/>
+  <object id="58" x="3627.67" y="182.333"/>
+  <object id="59" x="3748" y="181"/>
+ </objectgroup>
+</map>

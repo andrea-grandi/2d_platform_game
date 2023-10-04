@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="176">
+ <tileset firstgid="1" name="tileset_gutter" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="924" columns="33">
+  <image source="tileset_gutter.png" width="594" height="504"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value=""/>
+    <property name="smashable" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value=""/>
+    <property name="smashable" value=""/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="blocked" value=""/>
+    <property name="coinblock" value=""/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="265">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="266">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="267">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="268">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="297">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="298">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="299">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="330">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="331">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="363">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="925" source="tileset.tsx"/>
+ <layer id="1" name="Background Color" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJACAQBMFH+2/oWzMR4UE7EHGCgQ0vvuwRWUbbDQAAAACvW3/X6fYeAAAAAAAAgJ9NHioBOA==
+  </data>
+ </layer>
+ <layer id="9" name="Livello tile 3" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1wsKwyAMgOFAdoze/xCebhujsInR1kej3Q/7YFXnTDRIg4psIhL04/19F6K+1LPVBuAacf1afdYz9Qv4Sd2/qf6j7QCuk7t/v9usOqV+AT/x+27uDrZ+7x2Dp9cnyxrrtUbvfGEuD84EAAAAUEUL73+9/6f32Jo4W+YYuV7vHI3I9axrRHrPavtrx+JelNofks/WcWf24257pwufx9LaW+NSyfOOf3VH81gad2Y/euzdTPuvC59HLdRTa1zx/Dk1c3nnryXef9ErN+S5f07x6wlP1/Sz
+  </data>
+ </layer>
+ <objectgroup id="3" name="Ground">
+  <object id="5" x="0" y="192" width="1104" height="18"/>
+  <object id="11" x="1136" y="192" width="256" height="16"/>
+  <object id="25" x="1440" y="192" width="1024" height="16"/>
+  <object id="42" x="2496" y="192" width="1344" height="16"/>
+ </objectgroup>
+ <objectgroup id="6" name="Bricks">
+  <object id="86" x="2703.33" y="128" width="64" height="16"/>
+  <object id="87" x="2624.67" y="160.667" width="30.6667" height="30"/>
+  <object id="89" x="2080" y="128" width="32" height="16"/>
+  <object id="92" x="1904.67" y="128" width="30.6667" height="16"/>
+  <object id="93" x="1952.67" y="64" width="46.6666" height="16"/>
+  <object id="97" x="1616" y="128" width="32" height="16"/>
+  <object id="101" x="1472" y="64" width="48.6667" height="16"/>
+  <object id="102" x="1520" y="128" width="16" height="16"/>
+  <object id="109" x="1296.67" y="64" width="126.667" height="16"/>
+  <object id="110" x="736" y="128.667" width="30.6667" height="62"/>
+  <object id="111" x="912" y="126.667" width="31.3333" height="64.6667"/>
+  <object id="112" x="1248.67" y="128" width="47.3333" height="16"/>
+  <object id="113" x="1184.67" y="175.333" width="30.6667" height="16"/>
+  <object id="114" x="448" y="160.667" width="31.3333" height="31.3333"/>
+  <object id="115" x="608.667" y="144.667" width="31.3333" height="47.3333"/>
+  <object id="116" x="320" y="128" width="79.3333" height="16"/>
+  <object id="119" x="1744.67" y="160.667" width="46.6667" height="30"/>
+  <object id="170" x="2496.33" y="160.333" width="47.6667" height="31"/>
+  <object id="171" x="2544.33" y="176" width="15.6667" height="15.3333"/>
+  <object id="172" x="2880" y="160" width="64" height="31.3333"/>
+  <object id="173" x="2944.33" y="144.333" width="63.3333" height="47"/>
+  <object id="174" x="3008" y="176" width="48" height="14.6667"/>
+  <object id="175" x="3184.33" y="176.333" width="79.6667" height="15"/>
+ </objectgroup>
+ <objectgroup id="8" name="Turtles">
+  <object id="150" x="400" y="176" width="16" height="16"/>
+  <object id="151" x="864" y="176" width="16" height="16"/>
+  <object id="153" x="694" y="183.333"/>
+  <object id="154" x="522.667" y="181.333"/>
+  <object id="155" x="574.667" y="181.333"/>
+  <object id="156" x="1410" y="52.6667"/>
+  <object id="157" x="1773.33" y="148.667"/>
+  <object id="158" x="2118.67" y="180"/>
+  <object id="159" x="1979.33" y="181.333"/>
+  <object id="160" x="1985.33" y="54"/>
+  <object id="162" x="2916.67" y="148"/>
+  <object id="163" x="2748" y="116.667"/>
+ </objectgroup>
+</map>

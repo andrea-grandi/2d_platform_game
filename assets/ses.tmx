@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="240" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="32">
+ <tileset firstgid="1" source="tileset2.tsx"/>
+ <layer id="2" name="background" width="240" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6DOv6Daq4b9kNBLqqqqqqqqqqqq6vsAvnS9Ww==
+  </data>
+ </layer>
+ <layer id="1" name="Livello tile 1" width="240" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzt0zkOwCAMBEBLvItP5sUpKEBUKThEmGJqr21tThEZAAAAAABY7olqdxag+NrJ0/rb5p2d+bTb3Oxvf9LfsbN2732j/tfM4+6M9gJaUa1T
+  </data>
+ </layer>
+ <objectgroup id="3" name="oggetti">
+  <object id="1" x="0.666667" y="144.667" width="1455.33" height="14.6667"/>
+  <object id="2" x="1504" y="144.667" width="2336" height="14"/>
+  <object id="3" x="176.667" y="128" width="31.3333" height="15.3333"/>
+  <object id="4" x="1008.67" y="112.667" width="31.3333" height="30.6667"/>
+  <object id="5" x="1168.67" y="96" width="47.3333" height="48"/>
+  <object id="6" x="1872.67" y="112" width="62" height="32"/>
+  <object id="7" x="2304" y="112.667" width="48.6667" height="30.6667"/>
+ </objectgroup>
+ <objectgroup id="4" name="zombie">
+  <object id="10" x="1906" y="100.667"/>
+  <object id="11" x="1674.67" y="132.667"/>
+  <object id="12" x="1320.67" y="133.333"/>
+  <object id="13" x="1189.33" y="84"/>
+  <object id="14" x="1023.33" y="100.667"/>
+  <object id="15" x="838" y="134"/>
+  <object id="16" x="726" y="135.333"/>
+  <object id="17" x="638.667" y="134.667"/>
+  <object id="18" x="192.667" y="116"/>
+  <object id="19" x="2522.67" y="132.667"/>
+  <object id="20" x="2758" y="48.6667"/>
+  <object id="21" x="2901.33" y="71.3333"/>
+  <object id="22" x="3033.33" y="14.6667"/>
+  <object id="23" x="3166" y="66"/>
+  <object id="26" x="3273.33" y="110.667"/>
+  <object id="27" x="3365.33" y="36"/>
+  <object id="28" x="3442.67" y="134.667"/>
+  <object id="29" x="3515.33" y="96"/>
+  <object id="30" x="3656.67" y="48"/>
+  <object id="31" x="3682.67" y="121.333"/>
+ </objectgroup>
+</map>
